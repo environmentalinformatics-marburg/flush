@@ -27,8 +27,13 @@
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.text.DateFormat;
 import java.util.Calendar;
+import java.util.Formatter;
+
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSch;
@@ -51,6 +56,8 @@ public class TransferSftp {
 	 * @param args - array from strings
 	 */
 	public static void main(String[] args) {
+		TransferSftp ob = new TransferSftp();
+		System.out.print(ob.encryptPassword("1104wdpvJg\""));
 		try {
 			PrintStream errstr;
 			errstr = new PrintStream(new FileOutputStream(
@@ -62,7 +69,7 @@ public class TransferSftp {
 			errstr.write(today.getBytes(), 0, today.length());
 			System.setErr(errstr);
 
-			TransferSftp ob = new TransferSftp();
+			//TransferSftp ob = new TransferSftp();
 			JSch jsch = new JSch();
 			Session session = null;
 			ChannelSftp sftpChannel = null;
@@ -83,7 +90,37 @@ public class TransferSftp {
 		}
 
 	}
-
+	private static String encryptPassword(String password)
+	{
+	    String sha1 = "";
+	    try
+	    {
+	        MessageDigest crypt = MessageDigest.getInstance("SHA-1");
+	        crypt.reset();
+	        crypt.update(password.getBytes("UTF-8"));
+	        sha1 = byteToHex(crypt.digest());
+	    }
+	    catch(NoSuchAlgorithmException e)
+	    {
+	        e.printStackTrace();
+	    }
+	    catch(UnsupportedEncodingException e)
+	    {
+	        e.printStackTrace();
+	    }
+	    return sha1;
+	}
+	private static String byteToHex(final byte[] hash)
+	{
+	    Formatter formatter = new Formatter();
+	    for (byte b : hash)
+	    {
+	        formatter.format("%02x", b);
+	    }
+	    String result = formatter.toString();
+	    formatter.close();
+	    return result;
+	}
 	/**
 	 * This Method copies the csv-Files to the servers with the given ip address
 	 * 
