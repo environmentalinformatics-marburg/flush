@@ -8,13 +8,7 @@ Nach dem Start des Scriptes werden drei Dateien erzeugt.
 Es reicht die "hardware_error.txt" - Datei zu prüfen, ob 
 Predictive Failure Count > 0 ist.
 
-hardware_error.txt - hier werden die Fehlermeldungen als Zahl erfasst. Bsp.
-2015-06-16
-Predictive Failure Count: 0
-Predictive Failure Count: 0
-.
-.
-.
+
 error.log - Fehler.Meldungen bei der Ausführung des Scriptes
 
 pdlist.log - Informationen über die Festplatten. Bsp.
