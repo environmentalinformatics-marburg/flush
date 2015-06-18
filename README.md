@@ -1,8 +1,11 @@
 # flush
 Festplattenanalyse
 
-In dem hardware_check Ordner befindet sich ein Bash-Script zur Hardwarenanalyse. Das Script wird jeden Tag auf dem drei Server gestartet. Es konntrolliert die im RAID eingebundenen Festplatten auf Fehler.
-Nach dem Start des Scriptes werden drei Dateien erzeugt. Es reicht die "hardware_error.txt" - Datei zu prüfen, ob 
+In dem Ordner "hardware_check" befindet sich ein Bash-Script zur Hardwarenanalyse. 
+Das Script wird jeden Tag auf dem Server gestartet. 
+Es konntrolliert die im RAID eingebundenen Festplatten auf Fehlern.
+Nach dem Start des Scriptes werden drei Dateien erzeugt. 
+Es reicht die "hardware_error.txt" - Datei zu prüfen, ob 
 Predictive Failure Count > 0 ist.
 
 hardware_error.txt - hier werden die Fehlermeldungen als Zahl erfasst. Bsp.
