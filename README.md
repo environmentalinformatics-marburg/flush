@@ -9,7 +9,7 @@ Es reicht die "hardware_error.txt" - Datei zu prüfen, ob
 Predictive Failure Count > 0 ist.
 
 
-error.log - Fehler.Meldungen bei der Ausführung des Scriptes
+error.log - Fehler-Meldungen bei der Ausführung des Scriptes
 
 pdlist.log - Informationen über die Festplatten. Bsp.
 Adapter #0
