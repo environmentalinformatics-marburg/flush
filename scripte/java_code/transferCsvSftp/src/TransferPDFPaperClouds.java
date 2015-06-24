@@ -1,6 +1,6 @@
 /**
 *
-* Copyright (C) 2013-2013 Spaska Forteva
+* Copyright (C) 2015-2015 Spaska Forteva
 * Environmental Informatics
 * University of Marburg
 * Germany
@@ -42,7 +42,7 @@ import com.jcraft.jsch.SftpException;
 
 /**
  * This class copy files from local to a remote computer with the given ip address. 
- * The run arguments are strings - 190.xxx.xxx.x  source destination directory
+ * The run arguments are strings - 190.xxx.xxx.x  source directory destination directory
  * 
  * @version 0.1 2015-06-23
  * @author Spaska Forteva
@@ -73,9 +73,9 @@ public class TransferPDFPaperClouds {
 			JSch jsch = new JSch();
 			Session session = null;
 			ChannelSftp sftpChannel = null;
-			session = jsch.getSession("u70863963-sforteva", args[0], 22);
+			session = jsch.getSession("username", args[0], 22);
 			session.setConfig("StrictHostKeyChecking", "no");
-			session.setPassword("25spacea");
+			session.setPassword("password");
 			session.connect();
 			Channel channel = session.openChannel("sftp");
 			channel.connect();
