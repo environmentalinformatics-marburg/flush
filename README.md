@@ -25,3 +25,5 @@ Other Error Count: 0
 Predictive Failure Count: 0
 Last Predictive Failure Event Seq Number: 0
 PD Type: SATA
+
+<p><b> hardware_check </b></p>
