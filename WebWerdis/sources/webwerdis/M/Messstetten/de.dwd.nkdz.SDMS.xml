@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="http://werdis.dwd.de/css/UNIDART/climateTimeseriesOrderByStation.xsl" type="text/xsl"?>
+<data xmlns="http://www.unidart.eu/xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.unidart.eu/xsd
+     http://werdis.dwd.de/conf/timeseriesExchangeType.xsd">
+<stationname value="Me&#223;stetten">
+    <v date="2011-11" qualityLevel="high" latitude="48.1847" longitude="8.9925" altitude="920" unitA="m" geoQualityLevel="certain" unitV="hour">155.5</v>
+    <v date="2011-12">28.3</v>
+    <v date="2012-01">49.4</v>
+    <v date="2012-02">114.7</v>
+</stationname>
+</data>

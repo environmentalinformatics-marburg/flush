@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="http://werdis.dwd.de/css/UNIDART/climateTimeseriesOrderByStation.xsl" type="text/xsl"?>
+<data xmlns="http://www.unidart.eu/xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.unidart.eu/xsd
+     http://werdis.dwd.de/conf/timeseriesExchangeType.xsd">
+<stationname value="Heckelberg">
+    <v date="2007-05" qualityLevel="high" latitude="52.7461" longitude="13.8422" altitude="82" unitA="m" geoQualityLevel="certain" unitV="hour">242.4</v>
+    <v date="2007-06">203.3</v>
+    <v date="2007-07">178.3</v>
+    <v date="2007-08">212.7</v>
+    <v date="2007-09">135.4</v>
+    <v date="2007-10">105.5</v>
+    <v date="2007-11">28.4</v>
+    <v date="2007-12">30.0</v>
+    <v date="2008-01">45.4</v>
+    <v date="2008-02">84.2</v>
+    <v date="2008-03">113.9</v>
+    <v date="2008-04">124.6</v>
+    <v date="2008-05">311.3</v>
+    <v date="2008-06">301.6</v>
+    <v date="2008-07">236.1</v>
+    <v date="2008-08">158.0</v>
+    <v date="2008-09">130.8</v>
+    <v date="2008-10">95.4</v>
+    <v date="2008-11">32.9</v>
+    <v date="2008-12">34.2</v>
+    <v date="2009-01">53.9</v>
+    <v date="2009-02">29.1</v>
+    <v date="2009-03">88.1</v>
+    <v date="2009-04">321.6</v>
+    <v date="2009-05">253.5</v>
+    <v date="2009-06">199.5</v>
+    <v date="2009-07">237.4</v>
+    <v date="2009-08">286.0</v>
+    <v date="2009-09">207.5</v>
+    <v date="2009-10">63.0</v>
+    <v date="2009-11">62.6</v>
+    <v date="2009-12">34.0</v>
+    <v date="2010-01">29.3</v>
+    <v date="2010-02">52.9</v>
+    <v date="2010-03">113.8</v>
+    <v date="2010-04">216.3</v>
+    <v date="2010-05">90.0</v>
+    <v date="2010-06">301.6</v>
+    <v date="2010-07">313.0</v>
+    <v date="2010-08">151.7</v>
+    <v date="2010-09">132.1</v>
+    <v date="2010-10">133.9</v>
+    <v date="2010-11">16.6</v>
+    <v date="2010-12">16.3</v>
+    <v date="2011-01">47.5</v>
+    <v date="2011-02">95.6</v>
+    <v date="2011-03">190.1</v>
+    <v date="2011-05">290.5</v>
+    <v date="2011-06">269.4</v>
+    <v date="2011-07">183.4</v>
+    <v date="2011-08">192.1</v>
+    <v date="2011-09">192.4</v>
+    <v date="2011-10">147.4</v>
+    <v date="2011-11">123.8</v>
+    <v date="2011-12">17.5</v>
+    <v date="2012-01">55.5</v>
+    <v date="2012-02">96.3</v>
+</stationname>
+</data>

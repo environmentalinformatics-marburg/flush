@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="http://werdis.dwd.de/css/UNIDART/climateTimeseriesOrderByStation.xsl" type="text/xsl"?>
+<data xmlns="http://www.unidart.eu/xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.unidart.eu/xsd
+     http://werdis.dwd.de/conf/timeseriesExchangeType.xsd">
+<stationname value="T&#252;bingen (Stadt)">
+    <v date="2002-04" qualityLevel="high" latitude="48.5331" longitude="9.07" altitude="337" unitA="m" geoQualityLevel="certain" unitV="mm" sensorHeightAboveGround="1">36.4</v>
+    <v date="2002-05">157.9</v>
+    <v date="2002-06">83.3</v>
+    <v date="2002-07">111.0</v>
+    <v date="2002-08">164.8</v>
+    <v date="2002-09">120.0</v>
+    <v date="2002-10">119.6</v>
+    <v date="2002-11">112.9</v>
+    <v date="2002-12">53.4</v>
+    <v date="2003-01">68.1</v>
+    <v date="2003-02">10.9</v>
+    <v date="2003-03">19.1</v>
+    <v date="2003-04">47.8</v>
+    <v date="2003-05">113.6</v>
+    <v date="2003-06">131.2</v>
+    <v date="2003-07">58.8</v>
+    <v date="2003-08">30.7</v>
+    <v date="2003-09">15.1</v>
+    <v date="2003-10">103.1</v>
+    <v date="2003-11">42.4</v>
+    <v date="2003-12">25.7</v>
+</stationname>
+</data>

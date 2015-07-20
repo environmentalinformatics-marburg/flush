@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="http://werdis.dwd.de/css/UNIDART/climateTimeseriesOrderByStation.xsl" type="text/xsl"?>
+<data xmlns="http://www.unidart.eu/xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.unidart.eu/xsd
+     http://werdis.dwd.de/conf/timeseriesExchangeType.xsd">
+<stationname value="Eisenach">
+    <v date="2007-11" qualityLevel="high" latitude="51.0019" longitude="10.3633" altitude="312.4" unitA="m" geoQualityLevel="certain" unitV="hour">21.6</v>
+    <v date="2007-12">27.8</v>
+    <v date="2008-01">61.9</v>
+    <v date="2008-02">99.0</v>
+    <v date="2008-03">96.5</v>
+    <v date="2008-04">112.5</v>
+    <v date="2008-05">226.4</v>
+    <v date="2008-06">247.4</v>
+    <v date="2008-07">207.2</v>
+    <v date="2008-09">118.6</v>
+    <v date="2008-10">97.3</v>
+    <v date="2008-11">26.2</v>
+    <v date="2008-12">13.6</v>
+    <v date="2009-01">68.2</v>
+    <v date="2009-02">47.0</v>
+    <v date="2009-03">76.7</v>
+    <v date="2009-04">215.1</v>
+    <v date="2009-05">202.2</v>
+    <v date="2009-06">153.9</v>
+    <v date="2009-07">189.2</v>
+    <v date="2009-08">234.1</v>
+    <v date="2009-09">136.5</v>
+    <v date="2009-10">59.8</v>
+    <v date="2009-11">52.5</v>
+    <v date="2009-12">34.9</v>
+    <v date="2010-01">17.3</v>
+    <v date="2010-02">33.9</v>
+    <v date="2010-03">123.3</v>
+    <v date="2010-05">105.4</v>
+    <v date="2010-06">278.0</v>
+    <v date="2010-07">276.2</v>
+    <v date="2010-08">131.5</v>
+    <v date="2010-09">115.1</v>
+    <v date="2010-10">120.2</v>
+    <v date="2010-11">24.0</v>
+    <v date="2010-12">12.0</v>
+    <v date="2011-01">48.7</v>
+    <v date="2011-02">76.4</v>
+    <v date="2011-03">198.0</v>
+    <v date="2011-04">240.1</v>
+    <v date="2011-05">278.5</v>
+    <v date="2011-06">215.9</v>
+    <v date="2011-07">150.0</v>
+    <v date="2011-08">163.6</v>
+    <v date="2011-09">193.6</v>
+    <v date="2011-10">149.8</v>
+    <v date="2011-11">102.9</v>
+    <v date="2011-12">19.9</v>
+    <v date="2012-01">49.0</v>
+    <v date="2012-02">84.9</v>
+</stationname>
+</data>

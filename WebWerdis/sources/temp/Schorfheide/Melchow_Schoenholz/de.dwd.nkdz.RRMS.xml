@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="http://werdis.dwd.de/css/UNIDART/climateTimeseriesOrderByStation.xsl" type="text/xsl"?>
+<data xmlns="http://www.unidart.eu/xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.unidart.eu/xsd
+     http://werdis.dwd.de/conf/timeseriesExchangeType.xsd">
+<stationname value="Melchow-Sch&#246;nholz">
+    <v date="1998-01" qualityLevel="high" latitude="52.78" longitude="13.7608" altitude="71" unitA="m" geoQualityLevel="certain" unitV="mm" sensorHeightAboveGround="1">72.5</v>
+    <v date="1998-02">21.5</v>
+    <v date="1998-03">58.1</v>
+    <v date="1998-04">39.1</v>
+    <v date="1998-05">59.9</v>
+    <v date="1998-06">96.8</v>
+    <v date="1998-07">75.0</v>
+    <v date="1998-08">66.7</v>
+    <v date="1998-09">47.6</v>
+    <v date="1998-10">95.1</v>
+    <v date="1998-11">48.7</v>
+    <v date="1998-12">58.2</v>
+    <v date="1999-01">36.9</v>
+    <v date="1999-02">55.1</v>
+    <v date="1999-03">52.4</v>
+    <v date="1999-04">52.4</v>
+    <v date="1999-05">45.2</v>
+    <v date="1999-06">54.8</v>
+    <v date="1999-07">30.4</v>
+    <v date="1999-08">42.1</v>
+    <v date="1999-09">43.6</v>
+    <v date="1999-10">25.7</v>
+    <v date="1999-11">35.4</v>
+    <v date="1999-12">87.2</v>
+    <v date="2000-02">49.8</v>
+    <v date="2000-03">85.2</v>
+    <v date="2000-04">30.4</v>
+    <v date="2000-05">19.2</v>
+</stationname>
+</data>
