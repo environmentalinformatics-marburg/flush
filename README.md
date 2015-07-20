@@ -1,6 +1,6 @@
 # flush
 <p><b> Bash_scripts </b></p>
-Bash-Scripte für das Backup des 182-er, und etc. .
+Scripte für das Backup 182-er, und etc. .
 
 <p><b> hardware_check </b></p>
  
@@ -29,4 +29,7 @@ Predictive Failure Count: 0
 Last Predictive Failure Event Seq Number: 0
 PD Type: SATA
 
+
+<p><b> java_code </b></p>
+Java Programme zur unterschiedlichen Zwecken
 
