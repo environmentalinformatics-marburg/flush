@@ -1,5 +1,5 @@
 # flush
-<a> hardware_check </a>
+<p><b> hardware_check </b></p>
  
 In dem Ordner "hardware_check" befindet sich ein Bash-Script zur Hardwarenanalyse. 
 Das Script wird jeden Tag auf dem entsprechenden Server gestartet. 
