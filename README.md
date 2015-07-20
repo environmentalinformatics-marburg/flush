@@ -1,12 +1,15 @@
 # flush
-Festplattenanalyse
+<p><b> Bash_scripts </b></p>
+Bash-Scripte für das Backup des 182-er, und etc. .
 
+<p><b> hardware_check </b></p>
+ 
 In dem Ordner "hardware_check" befindet sich ein Bash-Script zur Hardwarenanalyse. 
-Das Script wird jeden Tag auf dem Server gestartet. 
-Es konntrolliert die im RAID eingebundenen Festplatten auf Fehlern.
+Das Script wird jeden Tag auf dem entsprechenden Server gestartet. 
+Es konntrolliert auf Fehlern die im RAID eingebundenen Festplatten.
 Nach dem Start des Scriptes werden drei Dateien erzeugt. 
 Es reicht die "hardware_error.txt" - Datei zu prüfen, ob 
-Predictive Failure Count > 0 ist.
+ein Predictive Failure Count > 0 ist.
 
 
 error.log - Fehler-Meldungen bei der Ausführung des Scriptes
@@ -25,3 +28,5 @@ Other Error Count: 0
 Predictive Failure Count: 0
 Last Predictive Failure Event Seq Number: 0
 PD Type: SATA
+
+
