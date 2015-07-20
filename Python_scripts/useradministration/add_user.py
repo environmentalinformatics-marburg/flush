@@ -25,30 +25,34 @@ __license__ = "GNU GPL, see http://www.gnu.org/licenses/"
 from User import User
 
 users = [ \
-         #('1000', 'Dogbert', 'dogbert', 'prime'), \
+         #('1000', 'Dogbert', 'dogbert', 'prime', False), \
 
          # Auto processors
-         #('1600', 'EI-Autoprocessor', 'eiautoprocessor', 'processor'), \
-         ('1610', 'EI-KI-Stations', 'eikistations', 'processor'), \
-         ('1620', 'EI-BE-Stations', 'eibestations', 'processor'), \
+         #('1600', 'EI-Autoprocessor', 'eiautoprocessor', 'processor', False), \
+         #('1610', 'EI-KI-Stations', 'eikistations', 'processor', False), \
+         #('1620', 'EI-BE-Stations', 'eibestations', 'processor', False), \
 
          # Staff
-         ('2000', 'Thomas Nauss', 'tnauss', 'staff'), \
-         ('2001', 'Meike Kuehnlein', 'mkuehnlein', 'staff'), \
-         ('2003', 'Tim Appelhans', 'tappelhans', 'staff'), \
-         ('2004', 'Falk Haensel', 'fhaensel', 'staff'), \
-         ('2005', 'Renate Fortevar', 'rforteva', 'staff'), \
-      	 ('2006', 'Florian Detsch', 'fdetsch', 'staff'), \
-      	 ('2007', 'Insa Otte', 'iotte', 'staff'), \
-         ('2008', 'Josephine Sonnenberg', 'jsonnenberg', 'staff'), \
-         ('2009', 'Ephraim Mwangomo', 'emwangomo', 'staff'), \
+         ('2000', 'Thomas Nauss', 'tnauss', 'staff', False), \
+         ('2003', 'Tim Appelhans', 'tappelhans', 'staff', False), \
+         ('2004', 'Falk Haensel', 'fhaensel', 'staff', False), \
+         ('2005', 'Spaska Forteva', 'sforteva', 'staff', False), \
+      	 ('2006', 'Florian Detsch', 'fdetsch', 'staff', False), \
+      	 ('2007', 'Insa Otte', 'iotte', 'staff', False), \
+         ('2008', 'Felix Staeps', 'fstaeps', 'staff', False), \
+         ('2009', 'Ephraim Mwangomo', 'emwangomo', 'staff', False), \
+         ('2010', 'Stephan Woellauer', 'swoellauer', 'staff', False), \
          # Student helpers
-         ('3001', 'Melanie Schnelle', 'schnell3', 'student-processor'), \
-         ('3004', 'Simon Schlauss', 'sschlauss', 'student-processor'), \
-         #('3005', 'Johanes Droenner', 'jdroenner', 'student-processor')
+         ('3001', 'Alice Ziegler', 'aziegler', 'student-processor', False), \
+         ('3002', 'Eva-Vanessa Wilzek', 'ewilzek', 'student-processor', False), \
+	 ('3003', 'Benjamin Schumacher', 'bschumacher', 'student-processor', False), \
+	 ('3004', 'Jan Moll', 'jmoll', 'student-processor', False), \
+	 ('3005', 'Annika Ludwig', 'aludwig', 'student-processor', False), \
+	 ('3006', 'Elena Rinn', 'erinn', 'student-processor', False), \
+         ('3007', 'Jochen Weiland', 'jweiland', 'student-processor', False)
          # Externals         
-         #('4000', 'Maik Dobbermann', 'mdobbermann', 'prime'), \
-         #('4001', 'Tobias Ebert', 'tebert', 'prime') \
+         #('4000', 'Maik Dobbermann', 'mdobbermann', 'prime', False), \
+         #('4001', 'Tobias Ebert', 'tebert', 'prime', False) \
         ]  
          
 for user in users:
