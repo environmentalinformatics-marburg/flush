@@ -1,4 +1,6 @@
 # flush
+Hinweisen:
+hardware_check 
 Festplattenanalyse
 
 In dem Ordner "hardware_check" befindet sich ein Bash-Script zur Hardwarenanalyse. 
