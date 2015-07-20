@@ -1,4 +1,7 @@
 # flush
+<p><b> Bash_scripts </b></p>
+In diesem Ordner befinden sich ein Bash-Scripte für das Backup.
+
 <p><b> hardware_check </b></p>
  
 In dem Ordner "hardware_check" befindet sich ein Bash-Script zur Hardwarenanalyse. 
@@ -26,4 +29,4 @@ Predictive Failure Count: 0
 Last Predictive Failure Event Seq Number: 0
 PD Type: SATA
 
-<p><b> hardware_check </b></p>
+
