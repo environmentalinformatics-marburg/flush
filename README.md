@@ -1,9 +1,7 @@
 # flush
 Hinweisen:
 
-hardware_check 
-Festplattenanalyse
-
+File - hardware_check 
 In dem Ordner "hardware_check" befindet sich ein Bash-Script zur Hardwarenanalyse. 
 Das Script wird jeden Tag auf dem entsprechenden Server gestartet. 
 Es konntrolliert auf Fehlern die im RAID eingebundenen Festplatten.
