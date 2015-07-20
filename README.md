@@ -1,6 +1,6 @@
 # flush
 <p><b> Bash_scripts </b></p>
-In diesem Ordner befinden sich ein Bash-Scripte für das Backup.
+Bash-Scripte für das Backup des 182-er, und etc. .
 
 <p><b> hardware_check </b></p>
  
