@@ -70,7 +70,7 @@ public class Useradministration {
 			ChannelSftp sftpChannel = null;
 			session = jsch.getSession("dogbert", args[0], 22);
 			session.setConfig("StrictHostKeyChecking", "no");
-			session.setPassword("1lM=1sR.249AE");
+			session.setPassword("");
 			session.connect();
 			Channel channel = session.openChannel("sftp");
 			channel.connect();
