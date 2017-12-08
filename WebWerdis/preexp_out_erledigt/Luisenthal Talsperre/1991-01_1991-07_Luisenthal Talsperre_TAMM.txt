@@ -1,7 +1,0 @@
-1991-01,Luisenthal Talsperre,50.766,10.72,528,-0.2
-1991-02,Luisenthal Talsperre,50.766,10.72,528,-4.3
-1991-03,Luisenthal Talsperre,50.766,10.72,528,4.2
-1991-04,Luisenthal Talsperre,50.766,10.72,528,4.4
-1991-05,Luisenthal Talsperre,50.766,10.72,528,7.1
-1991-06,Luisenthal Talsperre,50.766,10.72,528,11.8
-1991-07,Luisenthal Talsperre,50.766,10.72,528,17.9
